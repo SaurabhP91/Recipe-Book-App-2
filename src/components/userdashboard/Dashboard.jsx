@@ -10,7 +10,7 @@ import { arrayUnion, collection, doc, getDocs, query, updateDoc, where } from 'f
 import db from '../../firebase';
 
 const Dashboard = () => {
-    const currentuser = useSelector((state) => state.user)
+    const currentuser = useSelector((state) => state.user);
     const dispatch = useDispatch();
     const navigate = useNavigate();
 
