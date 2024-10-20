@@ -1,6 +1,6 @@
 # Vercel Hosting Link
 
-https://recipe-book-app-mauve.vercel.app/
+https://recipe-book-app-2-m2qqn1b23-saurabhp91s-projects.vercel.app/
 
 
 # Getting Started with Create React App
