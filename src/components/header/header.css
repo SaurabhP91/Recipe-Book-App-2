@@ -1,0 +1,152 @@
+#header-container{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(255, 136, 0);
+    transition: 0.5s;
+
+    align-items: center;
+    
+}
+
+#header-container :hover {
+    cursor:pointer;
+}
+
+#logo-container{
+    margin-left: 5%;
+}
+
+#navbar{
+    align-self: center;
+    display: flex;
+    margin-left: 10%;
+}
+
+ul a{
+ text-decoration: none;
+ color: black;
+}
+
+#login-btn{
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    margin-right: 0px;
+    margin-left: auto;
+    background-color: white;
+    height: 60px;
+    width: 10%;
+    color: black;
+}
+
+#login-btn a{
+    text-decoration: none;
+    color:black;
+}
+
+#account-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 170px;
+
+    background-color: rgb(53, 122, 32);
+    padding: 10px 0px 10px 0px;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+    z-index: 2;
+
+    margin-right: 0px;
+    margin-left: 50%;
+}
+
+.account-icon{
+    color: rgb(53, 122, 32);
+}
+
+#account-icon-container{
+    border-radius: 50%;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+#account-name{
+    font-size: small;
+    text-wrap:nowrap;
+    color: aliceblue;
+}
+
+#arrow-icon-container{
+    width: fit-content;
+    height: fit-content;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.arrow-icon{
+    
+}
+
+#user-dropdown{
+    position: absolute;
+    display:none;
+    flex-direction: column;
+    align-items: center;
+    top: 55px;
+    right: 30px;
+
+    background-color: rgb(53, 122, 32);
+    box-shadow: rgba(128, 128, 128, 0.5) 5px 5px 15px 5px;
+    width:160px;
+    color: aliceblue;
+
+    z-index: 1;
+    border-radius: 0%;
+
+}
+
+.dropdown-btn:hover{
+    color: black;
+    text-decoration:underline;
+
+}
+
+@media screen and (max-width: 780px){
+    #account-nav{
+        margin-right: 0px;
+
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #login-btn{
+        width: 20%;
+    }
+    #navbar{
+        margin-left: 0px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    #account-nav{
+        margin-left: 10%;
+    }
+    
+}
