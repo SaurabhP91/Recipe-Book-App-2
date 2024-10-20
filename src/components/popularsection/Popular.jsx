@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './popular.css'
 import { api_key } from '../../services/recipeApi';
-//import { baseURL } from '../../services/recipeApi';
+import { baseURL } from '../../services/recipeApi';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
